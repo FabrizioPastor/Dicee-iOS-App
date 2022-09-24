@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         rollButton.layer.cornerRadius = 12
     }
 
-    @IBAction func rollButtonPress(_ sender: UIButton) {        
+    @IBAction func rollButtonPress(_ sender: UIButton) {
         diceeOne.image = UIImage(named: dicees[getRandomNumberForDice()])
         diceeTwo.image = UIImage(named: dicees[getRandomNumberForDice()])
     }
